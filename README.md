@@ -1,9 +1,23 @@
 # Cinny desktop
 
+[中文](./README_CN.md) | English
+
 <a href="https://github.com/cinnyapp/cinny-desktop/releases">
   <img alt="GitHub release downloads" src="https://img.shields.io/github/downloads/cinnyapp/cinny-desktop/total?style=social"></a>
 
 Cinny is a matrix client focusing primarily on simple, elegant and secure interface. The desktop app is made with Tauri.
+
+## Fork Features
+
+This fork includes additional features on top of the original Cinny:
+
+| Feature | Description |
+|---------|-------------|
+| **Markdown Table Rendering** | Render MD tables in messages for better structured data visualization |
+| **i18n Multi-language** | Built-in translations for Chinese and other languages for better localization |
+| **Multi-Account Switching** (`feature/mulact`) | Manage multiple Matrix accounts in one client with quick account switching |
+
+> The submodule points to [cinny-i18n](https://github.com/zhao-wuyan/cinny-i18n) which includes the latest i18n translations.
 
 ## Download
 
