@@ -30,10 +30,10 @@ macOS | <a href='https://github.com/cinnyapp/cinny-desktop/releases/latest/downl
 Linux | <a href='https://github.com/cinnyapp/cinny-desktop/releases/latest/download/Cinny_desktop-x86_64.AppImage'>Linux 版下载</a> · <a href='https://flathub.org/apps/details/in.cinny.Cinny'>Flatpak</a>
 
 公钥内容：
-> RWRflTUQD3RHFtn25QNANCmePR9+4LSK89kAKTMEEB4OKpOFpLMgc64z
+> RWSFOsZ6hsZQsf9PVx4oZeh/kx44Fb2PR2djy4UtXGqnouNHQtzc5JUY
 
 验证发布文件，需要下载 [minisign](https://jedisct1.github.io/minisign/) 工具并先 [解码](https://www.base64decode.org/) *.sig* 文件：
->  minisign -Vm ***RELEASE_FILE.msi.zip*** -P RWRflTUQD3RHFtn25QNANCmePR9+4LSK89kAKTMEEB4OKpOFpLMgc64z -x ***SINGATURE.msi.zip.sig***
+>  minisign -Vm ***RELEASE_FILE.msi.zip*** -P RWSFOsZ6hsZQsf9PVx4oZeh/kx44Fb2PR2djy4UtXGqnouNHQtzc5JUY -x ***SINGATURE.msi.zip.sig***
 
 ## 本地开发
 

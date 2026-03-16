@@ -30,10 +30,10 @@ macOS | <a href='https://github.com/cinnyapp/cinny-desktop/releases/latest/downl
 Linux | <a href='https://github.com/cinnyapp/cinny-desktop/releases/latest/download/Cinny_desktop-x86_64.AppImage'>Get it on Linux</a> · <a href='https://flathub.org/apps/details/in.cinny.Cinny'>Flatpak</a>
 
 Decoded public key:
-> RWRflTUQD3RHFtn25QNANCmePR9+4LSK89kAKTMEEB4OKpOFpLMgc64z
+> RWSFOsZ6hsZQsf9PVx4oZeh/kx44Fb2PR2djy4UtXGqnouNHQtzc5JUY
 
 To verify release files, you need to download [minisign](https://jedisct1.github.io/minisign/) tool and [decode](https://www.base64decode.org/) the *.sig* file before running:
->  minisign -Vm ***RELEASE_FILE.msi.zip*** -P RWRflTUQD3RHFtn25QNANCmePR9+4LSK89kAKTMEEB4OKpOFpLMgc64z -x ***SINGATURE.msi.zip.sig***
+>  minisign -Vm ***RELEASE_FILE.msi.zip*** -P RWSFOsZ6hsZQsf9PVx4oZeh/kx44Fb2PR2djy4UtXGqnouNHQtzc5JUY -x ***SINGATURE.msi.zip.sig***
 
 ## Local development
 
